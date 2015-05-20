@@ -1,14 +1,14 @@
 var student = {
-    talk: function() { 
-        //do something 
+    talk: function() {
+        return "i'm talking";
     },
     walk: function() {
-        //do something other 
+        return "i'm walking";
     },
-    name: “gianni“,
-    accessories: [“watch“,“pencilcase“],
+    name: "gianni",
+    accessories: ["watch","pencilcase"],
     dress: {
-	pants: “jeans“,
-	topWear: “t-shirt“
+        pants: "jeans",
+        topWear: "t-shirt"
     }
 }; 

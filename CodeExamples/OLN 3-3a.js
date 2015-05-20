@@ -8,7 +8,7 @@ var student = {
     name: "gianni",
     accessories: ["watch","pencilcase"],    
     dress: {
-	pants: "jeans",
-	topWear: "t-shirt"
+        pants: "jeans",
+        topWear: "t-shirt"
     }	
 }; 

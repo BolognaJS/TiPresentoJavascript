@@ -3,7 +3,7 @@ var Student = function () {
 	this.x = 5;
 };
 
-Student.talk = function() {
+Student.prototype.talk = function() {
 	return this.x;
 };
 

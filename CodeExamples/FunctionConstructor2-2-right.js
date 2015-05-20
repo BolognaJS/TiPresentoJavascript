@@ -6,7 +6,6 @@ function Student() {
 
     function nonVisible() {
    	  return watch;
-	  //return this.watch;
     }
 
     //public

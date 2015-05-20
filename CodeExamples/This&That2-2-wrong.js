@@ -8,11 +8,10 @@ studentFirst.sayMyName = function() {
 };
 
 studentFirst.sayHello = function() {
-  //var that = this;
   var f = function() {
     return this.hello;
-    //return that.hello;
-  }
+  };
+
   return f(); 
 };
 
